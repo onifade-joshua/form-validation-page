@@ -1,0 +1,143 @@
+    *,
+    *::before,
+    *::after {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        background-color: #fff;
+        display: flex;
+    }
+    
+    .container {
+        padding-top: 1rem;
+        width: 100%;
+        min-height: 400px;
+        background-color: rgb(204, 226, 239);
+        margin: 8%;
+    }
+    
+    h2 {
+        text-align: center;
+        font-size: 25px;
+    }
+    
+    #form {
+        /* margin: 1rem; */
+        width: 95%;
+        height: 100%;
+        padding: 0.5rem;
+    }
+    
+    .form-control {
+        margin: 0.5rem;
+        /* padding: 0.8rem; */
+    }
+    
+    .img-fluid {
+        width: 100%;
+        height: 97%;
+        /* margin-top: 0.5rem; */
+        /* padding: 1rem; */
+    }
+    
+    .img-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+    
+    .logo {
+        width: 150px;
+        /* border-radius: 50px; */
+        margin-top: 0.5rem;
+    }
+    
+    .form-group {
+        line-height: 20px;
+    }
+    
+    .input {
+        padding: 0.5rem;
+    }
+    
+    #btn:hover {
+        background-color: lightskyblue;
+        color: blue;
+        font-weight: 600;
+    }
+    /*font awesome icon area section*/
+    
+    .google,
+    .facebook {
+        border: 1px solid lightblue;
+        border-radius: 0.5rem;
+        padding: 0.5rem;
+        font-size: 14px;
+        width: 40%;
+        text-decoration: none;
+        color: black;
+        background-color: rgb(247, 247, 247);
+        text-align: center;
+    }
+    
+    .google:hover,
+    .facebook:hover {
+        color: black;
+    }
+    /*text-line area*/
+    
+    .text_lines {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
+    
+    .text_lines:before,
+    .text_lines:after {
+        content: "";
+        flex: 5;
+        border-bottom: 1px solid;
+        margin: auto;
+        color: rgb(208, 208, 202);
+    }
+    
+    .text_lines:before {
+        margin-right: 5px;
+    }
+    
+    .text_lines:after {
+        margin-left: 5px;
+    }
+    
+    label {
+        margin-bottom: 0.5rem;
+    }
+    
+    .remember {
+        color: black;
+    }
+    
+    .remember:hover {
+        color: black;
+    }
+    /* .popup-content {
+        width: 326px;
+        height: 400px;
+        background-color: #fff;
+        box-shadow: 4px 4px70px 10px rgb(0, 0, 0/11%);
+        border-radius: 25px;
+    }
+    
+    .logobox {
+        text-align: center;
+    }
+    
+    .img {
+        width: 117px;
+        margin-top: 1rem;
+    } */

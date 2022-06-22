@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "sweetalert": "^2.1.2",
+    "uniq": "^1.0.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.73.0"
+  }
+}
